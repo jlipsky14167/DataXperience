@@ -35,9 +35,25 @@ El análisis completo está en el notebook **`index.ipynb`**, estructurado en tr
 
 ## Dataset
 
-`informacion_proyectos_plan_6gw_plus.xlsx` — Registro oficial del Plan 6GW+ de la UPME (Unidad de Planeación Minero-Energética de Colombia).
+`informacion_proyectos_plan_6gw_plus.xlsx` — Registro oficial del Plan 6GW+ publicado por la **UPME**.
+
+La **Unidad de Planeación Minero-Energética (UPME)** es la entidad adscrita al Ministerio de Minas y Energía de Colombia encargada de planear de forma integral el desarrollo del sector minero-energético del país, incluyendo la expansión de la generación eléctrica.
 
 Columnas principales: `capacidad_mw`, `tipo_tecnologia`, `estado_proyecto`, `tipo_proyecto`, `municipio`, `departamento`, `fecha_entrada_operacion`.
+
+### Clasificación regulatoria de los proyectos
+
+Bajo los lineamientos de la **Resolución CREG 174 de 2021** (CREG: Comisión de Regulación de Energía y Gas), los proyectos de generación se agrupan en tres categorías para la entrega de informes y la gestión de conexión a la red (UPME, s.f.-a, s.f.-b):
+
+| Sigla | Concepto | Límite de Capacidad | Objetivo Principal |
+|-------|----------|---------------------|--------------------|
+| **AGPE** | Autogenerador a Pequeña Escala | Hasta 1 MW | Consumo propio; entrega remanentes sencillos a la red. |
+| **AGGE** | Autogenerador a Gran Escala | Mayor a 1 MW | Consumo industrial o comercial masivo; puede vender excedentes. |
+| **GD** | Generador Distribuido | Hasta 0.1 MW (100 kW) | Producción exclusiva para comercializar en la red de distribución. |
+
+#### ¿Qué es la Generación Distribuida?
+
+La **Generación Distribuida (GD)** es la producción de electricidad en pequeña escala, ubicada cerca de los puntos de consumo y conectada directamente a la red de distribución local, en lugar de a las grandes redes de transmisión nacional. En vez de depender de una gran central lejana cuya energía debe viajar cientos de kilómetros, la GD genera la electricidad donde se necesita: tejados de viviendas, comercios, industrias o pequeñas plantas comunitarias. Sus ventajas clave son menores pérdidas por transporte, mayor resiliencia ante fallas y la democratización de la energía, permitiendo que los consumidores se vuelvan también productores (*prosumidores*). La energía solar fotovoltaica es la tecnología insignia de la GD en Colombia.
 
 ## Stack Tecnológico
 
@@ -96,4 +112,8 @@ Federación Nacional de Comerciantes & Asociación Nacional de Empresarios de Co
 
 Galeano Balaguera, P. (2026, 10 de septiembre). *Tarifas de energía subirían: Gobierno prepara subasta ante El Niño y enfrenta déficit de $4,57 billones*. Portafolio. https://www.portafolio.co/energia/tarifas-de-energia-subirian-gobierno-prepara-subasta-ante-el-nino-y-enfrenta-deficit-de-4-57-billones-502192
 
-Unidad de Planeación Minero-Energética. (s.f.). *Plan 6GW+* [Conjunto de datos]. Sistema de Información Minero-Energético Colombiano (SIMEC). https://www.upme.gov.co/simec/plan-6gw/
+Unidad de Planeación Minero-Energética. (s.f.-a). *Solicitudes de conexión de proyectos de generación*. SIMEC. https://www.upme.gov.co/simec/energia-electrica/solicitudes-de-conexion-de-proyectos-de-generacion/
+
+Unidad de Planeación Minero-Energética. (s.f.-b). *Guía de diligenciamiento del formato de solicitudes de proyectos de la CREG 174*. https://docs.upme.gov.co/Normatividad/Guia_diligenciamiento_formato_solicitudes_proyectos_de_CREG_174.pdf
+
+Unidad de Planeación Minero-Energética. (s.f.-c). *Plan 6GW+* [Conjunto de datos]. Sistema de Información Minero-Energético Colombiano (SIMEC). https://www.upme.gov.co/simec/plan-6gw/
