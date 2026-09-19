@@ -2,6 +2,10 @@
 
 Proyecto de ciencia de datos que analiza los **29.354 proyectos** de generación solar del Plan 6GW+ de Colombia para demostrar cómo la inversión en energía solar fotovoltaica genera **soberanía energética** frente a la dependencia histórica de las hidroeléctricas y su vulnerabilidad ante el **Fenómeno del Niño**.
 
+## Video
+
+[https://youtu.be/9eq1mMYXxSo?si=HcEUmx__cTFicj42](https://youtu.be/9eq1mMYXxSo?si=HcEUmx__cTFicj42)
+
 ## Contexto
 
 Colombia genera cerca del 70% de su electricidad a partir de fuentes hidroeléctricas. Durante el Fenómeno del Niño, las sequías reducen la generación hídrica hasta un 30-40%, exponiendo al país a déficits energéticos. Este análisis evalúa el Plan 6GW+ como estrategia de diversificación, su impacto económico en los hogares y su rol en la movilidad eléctrica.
