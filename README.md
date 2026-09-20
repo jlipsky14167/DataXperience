@@ -4,7 +4,7 @@ Proyecto de ciencia de datos que analiza los **29.354 proyectos** de generación
 
 ## Video
 
-[https://youtu.be/9eq1mMYXxSo?si=HcEUmx__cTFicj42](https://youtu.be/9eq1mMYXxSo?si=HcEUmx__cTFicj42)
+[https://youtu.be/frbGUPJwDSs](https://youtu.be/frbGUPJwDSs)
 
 ## Contexto
 
